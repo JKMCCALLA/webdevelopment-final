@@ -1,0 +1,174 @@
+
+.ms-md-auto{
+  margin-right: 5% !important;
+}
+
+.me-md-auto {
+  margin-left: 5% !important;
+}
+
+#hero_m{
+  position: absolute;
+  right: 41vw;
+  top: 25vh;
+  z-index: 3;
+  margin-top: -5vh
+  }
+
+#hero_text{
+  position: absolute;
+  right: 38vw;
+  top: 25vh;
+  z-index: 3;
+  margin-top: -5vh;
+  transform: translateY(35vh) translateX(-15vh);
+}
+
+.shade {
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  height: 75vh;
+  max-height: 75vw;
+  background-color: rgba(93,83,95,.5);
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+
+.border-5 {
+  border-width: 20px !important;
+}
+
+.border-dark {
+  border-color: rgba(93,83,95,.6) !important;
+}
+
+#hero_text{
+  color: white !important;
+  font-size: 3vw;
+  position: absolute;
+  transform: translateY(15vw);
+  z-index: 3;
+  text-shadow: 1px 1px white;
+}
+
+.mission {
+  background-color: #7F8B52;
+}
+
+.skills {
+  background-color: #EAE2B6;
+}
+
+.inspire {
+  background-color: #558776;
+}
+
+#mission_text {
+  color: white;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  margin-left: 0px;
+  font-size: 3vw;
+}
+
+#mission_text_2{
+  color: white;
+  font-size: 3vw;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
+hr {
+  color: white;
+}
+
+div.col {
+  margin-bottom: -2vh;
+}
+
+#skills_a {
+  margin-top: 5vh;
+}
+
+#skills_text {
+  color: black;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  margin-left: 0px;
+  font-size: 3vw;
+}
+
+#skills_text_2 {
+  color: black;
+  margin-top: 4vh;
+  font-size: 3vw;
+}
+
+#skills_line {
+  color:black;
+}
+
+#inspiration_line {
+  color:white;
+}
+
+#contact_line {
+  color: black;
+}
+
+#inspire_text {
+  color: white;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  font-size: 3vw;
+}
+
+.inspire_text_2 {
+  text-shadow: 1px 1px white;
+}
+
+.contact {
+  background-color: #D7B19D;
+}
+
+#contact_text {
+  color: white;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  font-size: 3vw;
+}
+
+#footer_text {
+  color: white;
+  margin-top: 1vh;
+}
+
+.footer{
+  background-color: black;
+  height: 40px;
+}
+
+.hover img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover:hover img{
+  opacity: .5;
+  
+}
+
+.hover_a img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.hover_a:hover img{
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+} 
+
